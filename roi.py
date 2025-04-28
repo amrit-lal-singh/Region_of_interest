@@ -4,7 +4,7 @@ from pydantic import BaseModel, Field
 from typing import List, Optional
 
 # Gemini API configuration
-GEMINI_API_KEY = "AIzaSyCuC7h7RQgBP5zyOTQ_0wNtUNNy103QnE4"
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # Replace with your actual key when running locally
 GEMINI_MODEL = "gemini-2.5-pro-preview-03-25"
 
 # Configure the Gemini API
