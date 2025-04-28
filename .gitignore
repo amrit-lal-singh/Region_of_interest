@@ -1,12 +1,13 @@
 # Ignore BTP Copy folder
-BTP Copy/
-"BTP (Copy)"/
+BTP\ \(Copy\)/
+BTP\ Copy/
 
 # Ignore zip files
 *.zip
 
 # Ignore specific files
 idea.md
+test_set.json
 Testset.json
 
 # Python
@@ -30,6 +31,7 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+.venv/
 
 # IDE files
 .idea/
