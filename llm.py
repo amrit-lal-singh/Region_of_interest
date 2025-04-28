@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from typing import List, Dict, Any, Tuple
 
 # Hugging Face token for authentication
-HF_TOKEN = "***REMOVED***"
+HF_TOKEN = "YOUR_HF_TOKEN_HERE"  # Replace with your actual token when running locally
 
 class ModelInference:
     def __init__(self, model_name: str = "Qwen/Qwen2.5-3B"):
